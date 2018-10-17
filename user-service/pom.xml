@@ -116,6 +116,19 @@
         <version>1.1.9</version>
       </dependency>
       <!--mybatis and mysql-->
+
+      <!-- jwt实现-->
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt</artifactId>
+        <version>0.9.0</version>
+      </dependency>
+      <dependency>
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>2.10</version>
+      </dependency>
+      <!-- jwt实现 end-->
     </dependencies>
 
   </dependencyManagement>

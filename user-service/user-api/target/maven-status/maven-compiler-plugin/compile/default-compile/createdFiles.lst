@@ -1,5 +1,7 @@
 com\gupaoedu\user\IUserCoreService.class
+com\gupaoedu\user\dto\CheckAuthResponse.class
 com\gupaoedu\user\abs\AbstractResponse.class
 com\gupaoedu\user\abs\AbstractRequest.class
+com\gupaoedu\user\dto\CheckAuthRequest.class
 com\gupaoedu\user\dto\UserLoginResponse.class
 com\gupaoedu\user\dto\UserLoginRequest.class
