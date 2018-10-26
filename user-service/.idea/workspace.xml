@@ -19,7 +19,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_8.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
@@ -42,33 +41,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/abs/AbstractRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/abs/AbstractResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/CheckAuthResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/main/resources/client/user-reference.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/src/test/java/com/gupaoedu/user/AppTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-api/user-api.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ExceptionUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ValidateException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-common.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-provider.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-user.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties" />
       <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/src/test/java/com/gupaoedu/user/AppTest.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/user-provider/user-provider.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/user-service.iml" />
@@ -89,190 +62,117 @@
       <FILTER>com.gupaoedu.user.main.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="UserCoreServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+            <state relative-caret-position="409">
+              <caret line="124" column="43" lean-forward="false" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service-kafka.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-kafka.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseCodeEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1269">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dump.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/assembly/bin/dump.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assembly.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/assembly/assembly.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="76" lean-forward="false" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserCoreService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRegisterResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtocolFilterWrapper.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolFilterWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="154:539" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="688:860" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="893:904" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="942:948" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="1024:1210" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="1288:1465" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="1492:1503" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="1527:1533" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="1639:2857" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="2009:2804" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="2061:2088" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="2118:2140" ph=" }" />
-                <marker date="1536224662612" expanded="false" signature="2181:2208" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="2232:2254" ph=" }" />
-                <marker date="1536224662612" expanded="false" signature="2304:2331" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="2360:2382" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="2468:2555" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="2598:2625" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="2643:2665" ph=" }" />
-                <marker date="1536224662612" expanded="false" signature="2711:2738" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="2764:2786" ph=" }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DubboProtocol.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="160:1572" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="2417:6685" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="2513:4484" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="4573:4782" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="4856:4914" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="4991:5255" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="5320:5777" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="5867:6679" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="6757:6768" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="6784:6790" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="6843:7004" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="7057:7140" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="7192:7277" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="7324:7335" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="7359:7365" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="7417:7701" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="7787:9197" ph="{...}" />
-                <marker date="1536224662612" expanded="false" signature="9246:9257" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="9314:9320" ph=" }" />
-                <marker date="1536224662612" expanded="false" signature="9353:9364" ph=" { " />
-                <marker date="1536224662612" expanded="false" signature="9377:9383" ph=" }" />
-                <marker date="1536224662612" expanded="true" signature="9459:10461" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="10500:10890" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="10941:12225" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="12310:12484" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="12535:13102" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="13156:13797" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="13846:15166" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="15194:17306" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeaderExchangeHandler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="149" column="84" lean-forward="false" selection-start-line="149" selection-start-column="84" selection-end-line="149" selection-end-column="84" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="174:997" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="1360:1528" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="1607:1759" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="1851:2829" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="2923:3055" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="3125:3556" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="3629:4063" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="4144:5246" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="5305:5576" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="5661:7241" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="7329:8220" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="8261:8418" ph="{...}" />
-                <marker date="1536224662612" expanded="true" signature="8431:8572" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/EchoFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="152:432" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="434:492" ph="@{...}" />
-                <marker date="1536224662612" expanded="true" signature="561:568" ph="{}" />
-                <marker date="1536224662612" expanded="true" signature="651:845" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoaderFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/ClassLoaderFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="152:392" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="394:451" ph="@{...}" />
-                <marker date="1536224662612" expanded="true" signature="534:541" ph="{}" />
-                <marker date="1536224662612" expanded="true" signature="631:1005" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JwtTokenUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/GenericFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1809">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="152:1076" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="1078:1135" ph="@{...}" />
-                <marker date="1536224662612" expanded="true" signature="1210:1217" ph="{}" />
-                <marker date="1536224662612" expanded="true" signature="1300:4741" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/ContextFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1536224662612" expanded="false" signature="152:525" ph="..." />
-                <marker date="1536224662612" expanded="true" signature="527:584" ph="@{...}" />
-                <marker date="1536224662612" expanded="true" signature="659:666" ph="{}" />
-                <marker date="1536224662612" expanded="true" signature="756:1709" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -327,13 +227,17 @@
         <option value="$PROJECT_DIR$/user-api/src/main/resources/user-reference.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-common.xml" />
         <option value="$PROJECT_DIR$/user-provider/target/classes/com/gupaoedu/user/dal/persistence/pom.xml" />
-        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/resources/client/user-reference.xml" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/applicationkafka.xml" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/server-kafka.xml" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java" />
       </list>
@@ -369,8 +273,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="465" />
-    <option name="y" value="331" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1708" />
     <option name="height" value="572" />
   </component>
@@ -430,6 +334,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,21 +346,13 @@
             <path>
               <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -463,19 +361,23 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gpmall-sso" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\arcln-code\user-service\user-provider\src\main" />
+      <recent name="F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto" />
+      <recent name="F:\arcln-code\user-service\user-provider\src\main\resources\META-INF\spring" />
+      <recent name="F:\arcln-code\user-service\user-provider" />
+      <recent name="F:\arcln-code\user-service\user-provider\src\main\java\com\gupaoedu\user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gupaoedu.user.constants" />
+      <recent name="com.gupaoedu.user.notify" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\arcln-code\user-service\user-provider\target\classes\com\gupaoedu\user\dal\persistence" />
       <recent name="F:\arcln-code\user-service\user-api\src\main\resources\client" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto" />
-      <recent name="F:\arcln-code\user-service\user-provider" />
-      <recent name="F:\arcln-code\user-service\user-provider\src\main\java\com\gupaoedu\user" />
-      <recent name="F:\arcln-code\user-service\user-provider\src\main\resources" />
-      <recent name="F:\arcln-code\user-service\user-provider\src\main\java\com\gupaoedu\user\dal\persistence" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -637,8 +539,29 @@
       <workItem from="1539317404247" duration="5442000" />
       <workItem from="1539572005358" duration="5615000" />
       <workItem from="1539757391032" duration="5536000" />
-      <workItem from="1539766870557" duration="2335000" />
+      <workItem from="1539766870557" duration="3537000" />
+      <workItem from="1540190845160" duration="1858000" />
+      <workItem from="1540204535528" duration="341000" />
+      <workItem from="1540206247550" duration="2956000" />
+      <workItem from="1540437297640" duration="2015000" />
+      <workItem from="1540522521821" duration="28000" />
+      <workItem from="1540525743213" duration="7335000" />
     </task>
+    <task id="LOCAL-00001" summary="添加kafka">
+      <created>1540539181884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540539181884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加kafka">
+      <created>1540539240279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540539240279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -647,7 +570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51671000" />
+    <option name="totallyTimeSpent" value="67406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,6 +583,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -667,22 +591,22 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06185567" sideWeight="0.084227465" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12929185" sideWeight="0.4925926" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12371134" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0045819017" sideWeight="0.16630901" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15718885" sideWeight="0.4925926" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0045819017" sideWeight="0.833691" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19527897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06185567" sideWeight="0.91577256" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27605957" sideWeight="0.9082618" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,6 +622,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加kafka" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -709,7 +637,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java</url>
-          <line>37</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -721,112 +649,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-          <folding>
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1628#1629#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/MET-INF/spring/service-provider.xml" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/MET-INF/spring/service-user.xml" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/MET-INF/spring/service-common.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/container/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="91" column="13" lean-forward="false" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/filter/config/ConfigFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <marker date="1539153281141" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1539153281141" expanded="false" signature="155:762" ph="..." />
-            <marker date="1539153281141" expanded="true" signature="1338:1345" ph="{}" />
-            <marker date="1539153281141" expanded="true" signature="1401:2396" ph="{...}" />
-            <marker date="1539153281141" expanded="true" signature="2492:2956" ph="{...}" />
-            <marker date="1539153281141" expanded="true" signature="3032:3760" ph="{...}" />
-            <marker date="1539153281141" expanded="true" signature="3831:4854" ph="{...}" />
-            <marker date="1539153281141" expanded="true" signature="4955:5436" ph="{...}" />
-            <marker date="1539153281141" expanded="true" signature="5488:7425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/META-INF/dubbo.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-          <folding>
-            <marker date="1539143886192" expanded="true" signature="484:563" ph="select from user" />
-            <marker date="1539143886192" expanded="true" signature="723:791" ph="select from user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="44" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ValidateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/target/classes/com/gupaoedu/user/dal/persistence/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/exception/ExceptionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.0.5/mybatis-3.0.5.jar!/org/apache/ibatis/session/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11421">
@@ -841,33 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="130" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,24 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#782#783#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#858#859#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,55 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-common.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:518" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="520:557" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="720:727" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="817:1409" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,18 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2889">
           <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:1192" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="1194:1258" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="2038:2045" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="2071:2461" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="2521:2868" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="2951:5483" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="5531:8242" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="5559:5570" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="5598:8236" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,15 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2538">
           <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="167:909" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="911:948" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="1319:1326" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="1417:1885" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="1970:2316" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="2406:4903" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:525" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="527:584" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="659:666" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="756:1709" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,13 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1809">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:1076" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="1078:1135" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="1210:1217" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="1300:4741" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,13 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:392" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="394:451" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="534:541" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="631:1005" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,13 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="152:432" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="434:492" ph="@{...}" />
-            <marker date="1536224662612" expanded="true" signature="561:568" ph="{}" />
-            <marker date="1536224662612" expanded="true" signature="651:845" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,30 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536224662612" expanded="false" signature="154:539" ph="..." />
-            <marker date="1536224662612" expanded="true" signature="688:860" ph="{...}" />
-            <marker date="1536224662612" expanded="false" signature="893:904" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="942:948" ph=" }" />
-            <marker date="1536224662612" expanded="true" signature="1024:1210" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="1288:1465" ph="{...}" />
-            <marker date="1536224662612" expanded="false" signature="1492:1503" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="1527:1533" ph=" }" />
-            <marker date="1536224662612" expanded="true" signature="1639:2857" ph="{...}" />
-            <marker date="1536224662612" expanded="true" signature="2009:2804" ph="{...}" />
-            <marker date="1536224662612" expanded="false" signature="2061:2088" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="2118:2140" ph=" }" />
-            <marker date="1536224662612" expanded="false" signature="2181:2208" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="2232:2254" ph=" }" />
-            <marker date="1536224662612" expanded="false" signature="2304:2331" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="2360:2382" ph=" }" />
-            <marker date="1536224662612" expanded="true" signature="2468:2555" ph="{...}" />
-            <marker date="1536224662612" expanded="false" signature="2598:2625" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="2643:2665" ph=" }" />
-            <marker date="1536224662612" expanded="false" signature="2711:2738" ph=" { " />
-            <marker date="1536224662612" expanded="false" signature="2764:2786" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,7 +835,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="3537">
           <caret line="149" column="84" lean-forward="false" selection-start-line="149" selection-start-column="84" selection-end-line="149" selection-end-column="84" />
           <folding>
             <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
@@ -1203,39 +856,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar!/io/jsonwebtoken/JwtParser.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/notify/UnKnowMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/main/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="986" column="18" lean-forward="false" selection-start-line="986" selection-start-column="18" selection-end-line="986" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/common/utils/ConfigUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3807">
+          <caret line="164" column="51" lean-forward="false" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/container/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <marker date="1536224662612" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1536224662612" expanded="false" signature="151:558" ph="..." />
+            <marker date="1536224662612" expanded="true" signature="983:990" ph="{}" />
+            <marker date="1536224662612" expanded="true" signature="1035:3502" ph="{...}" />
+            <marker date="1536224662612" expanded="false" signature="1718:1772" ph="run() → {" />
+            <marker date="1536224662612" expanded="false" signature="2601:2624" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-common.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserLoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/arclncode/parent/acmall-dubbo/1.0-SNAPSHOT/acmall-dubbo-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/dto/UserRegisterResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/assembly/bin/dump.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/assembly/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="76" lean-forward="false" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/IUserCoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/gupaoedu/user/constants/ResponseCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/services/UserCoreServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+        <state relative-caret-position="409">
+          <caret line="124" column="43" lean-forward="false" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1539143886192" expanded="true" signature="484:563" ph="select from user" />
+            <marker date="1539143886192" expanded="true" signature="723:791" ph="select from user" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/utils/JwtTokenUtils.java">
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/gupaoedu/user/dal/persistence/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/service-kafka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

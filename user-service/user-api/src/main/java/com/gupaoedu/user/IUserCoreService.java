@@ -1,9 +1,6 @@
 package com.gupaoedu.user;
 
-import com.gupaoedu.user.dto.CheckAuthRequest;
-import com.gupaoedu.user.dto.CheckAuthResponse;
-import com.gupaoedu.user.dto.UserLoginRequest;
-import com.gupaoedu.user.dto.UserLoginResponse;
+import com.gupaoedu.user.dto.*;
 
 public interface IUserCoreService {
     /**
@@ -19,4 +16,9 @@ public interface IUserCoreService {
      * @return
      */
     CheckAuthResponse validToken(CheckAuthRequest request);
+
+    /*
+     * 注册
+     */
+    UserRegisterResponse register(UserRegisterRequest userRegisterRequest);
 }

@@ -1,9 +1,9 @@
 package com.gupaoedu.sso.intercept;
 
 import com.alibaba.dubbo.common.utils.StringUtils;
-import com.gupaoedu.sso.controller.Anoymous;
+import com.arclncode.common.annotation.Anoymous;
+import com.arclncode.common.utils.CookieUtil;
 import com.gupaoedu.sso.controller.BaseController;
-import com.gupaoedu.sso.utils.CookieUtil;
 import com.gupaoedu.user.IUserCoreService;
 import com.gupaoedu.user.dto.CheckAuthRequest;
 import com.gupaoedu.user.dto.CheckAuthResponse;
@@ -42,7 +42,7 @@ public class TokenIntercepter extends HandlerInterceptorAdapter {
         if(!(bean instanceof BaseController)){
             throw new RuntimeException("must extend basecontroller");
         }
-        String token=CookieUtil.getCookieValue(request,ACCESS_TOKEN);
+        String token= CookieUtil.getCookieValue(request,ACCESS_TOKEN);
         logger.info("拦截开始----------------------token->"+token);
         boolean isAjax=CookieUtil.isAjax(request);
         if(StringUtils.isEmpty(token)){

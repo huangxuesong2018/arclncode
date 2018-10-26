@@ -1,6 +1,10 @@
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\abs\AbstractRequest.java
+F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\CheckAuthResponse.java
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\UserLoginResponse.java
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\IUserCoreService.java
+F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\UserRegisterRequest.java
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\constants\ResponseCodeEnum.java
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\UserLoginRequest.java
 F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\abs\AbstractResponse.java
+F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\UserRegisterResponse.java
+F:\arcln-code\user-service\user-api\src\main\java\com\gupaoedu\user\dto\CheckAuthRequest.java
