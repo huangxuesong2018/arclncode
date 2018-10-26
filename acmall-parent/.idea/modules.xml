@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/acmall-dubbo/acmall-dubbo.iml" filepath="$PROJECT_DIR$/acmall-dubbo/acmall-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acmall-parent.iml" filepath="$PROJECT_DIR$/acmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acmall-web/acmall-web.iml" filepath="$PROJECT_DIR$/acmall-web/acmall-web.iml" />
+    </modules>
+  </component>
+</project>
