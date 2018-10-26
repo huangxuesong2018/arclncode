@@ -5,7 +5,9 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.common.TopicPartition;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Properties;
 
@@ -23,8 +25,12 @@ public class KafkaConsumerDemo extends Thread{
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG,"org.apache.kafka.common.serialization.StringDeserializer");
         properties.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,"earliest");
         kafkaConsumer=new KafkaConsumer(properties);
-       this.topic = topic;
-        kafkaConsumer.subscribe(Collections.singletonList(topic));
+        this.topic = topic;
+        //kafkaConsumer.subscribe(Collections.singletonList(topic));
+
+        //指定某个分区
+        TopicPartition topicPartition = new TopicPartition(this.topic,0);
+        kafkaConsumer.assign(Arrays.asList(topicPartition));
     }
 
     @Override
@@ -33,7 +39,7 @@ public class KafkaConsumerDemo extends Thread{
         while(true){
             ConsumerRecords<Integer,String> consumerRecord=kafkaConsumer.poll(1000);
             for(ConsumerRecord record:consumerRecord){
-                System.out.println("message receive:"+record.value());
+                System.out.println("partition->"+record.partition()+",message receive:"+record.value());
                 kafkaConsumer.commitAsync();//手动提交
             }
         }
@@ -41,6 +47,6 @@ public class KafkaConsumerDemo extends Thread{
 
 
     public static void main(String[] args) {
-        new KafkaConsumerDemo("test").start();
+        new KafkaConsumerDemo("test001").start();
     }
 }

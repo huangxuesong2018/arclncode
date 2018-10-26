@@ -17,6 +17,7 @@ public class KafkaProducerDemo extends Thread{
         properties.put(ProducerConfig.ACKS_CONFIG,"-1");
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,"org.apache.kafka.common.serialization.IntegerSerializer");
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,"org.apache.kafka.common.serialization.StringSerializer");
+        properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG,"com.gupaoedu.kafka.MyPartition");
         this.producer = new KafkaProducer<Integer, String>(properties);
         this.topic =topic;
         this.isAysnc = isAysnc;
@@ -59,6 +60,6 @@ public class KafkaProducerDemo extends Thread{
     }
 
     public static void main(String[] args) {
-        new KafkaProducerDemo("test",true).start();
+        new KafkaProducerDemo("test001",true).start();
     }
 }
