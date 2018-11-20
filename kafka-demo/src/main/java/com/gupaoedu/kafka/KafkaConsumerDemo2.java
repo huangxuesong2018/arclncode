@@ -4,18 +4,17 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.TopicPartition;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Properties;
 
-public class KafkaConsumerDemo extends Thread{
+public class KafkaConsumerDemo2 extends Thread{
     private String topic;
     private final KafkaConsumer kafkaConsumer;
 
-    public KafkaConsumerDemo(String topic) {
+    public KafkaConsumerDemo2(String topic) {
         Properties properties=new Properties();
         properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.1.130:9092,192.168.1.131:9092");
         properties.put(ConsumerConfig.GROUP_ID_CONFIG,"KafkaConsumerDemo2");//同一组的consumer 可以获取一次消息，然后组内
@@ -58,6 +57,8 @@ public class KafkaConsumerDemo extends Thread{
 
 
     public static void main(String[] args) {
-        new KafkaConsumerDemo("test001").start();
+       // new KafkaConsumerDemo("test001").start();
+        //定位consumer_group存储在哪个分区上  groupid
+        System.out.println("KafkaConsumerDemo2".hashCode()%50);
     }
 }
