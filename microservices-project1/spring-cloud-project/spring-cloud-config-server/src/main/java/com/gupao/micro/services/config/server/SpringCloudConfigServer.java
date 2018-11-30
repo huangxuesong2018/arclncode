@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @SpringBootApplication
+//这个注解就是开启 Spring cloud config server
 @EnableConfigServer
 public class SpringCloudConfigServer {
     public static void main(String[] args) {
