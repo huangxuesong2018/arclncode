@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Collectors;
 
+/**
+ * Spring Cloud Zookeeper 做为注册中心，实现负载均衡
+ */
 @RestController
 public class ClientController {
     @Autowired
@@ -32,6 +33,11 @@ public class ClientController {
         //获取当前应用的机器列表
         //http://${host}:${port}
         Set<String> oldTargetUrls = this.targetUrls;
+        /*通过应用名称从discoveryClient中获得在zookeeper注册的节点
+         在应用启动时，在zookeeper中创建 ${spring.application.name} 节点
+         [zk: localhost:2181(CONNECTED) 1] ls /services
+         [spring-cloud-client-application]
+         */
         List<ServiceInstance> serviceInstances = discoveryClient.getInstances(currentServiceName);
         Set<String> newTargetUrls = serviceInstances
                 .stream()
