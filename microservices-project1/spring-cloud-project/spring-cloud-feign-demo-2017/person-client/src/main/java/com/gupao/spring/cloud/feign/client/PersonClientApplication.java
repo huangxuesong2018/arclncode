@@ -11,6 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @since 2018-12-29
  */
 @SpringBootApplication
+//@EnableEurekaClient
 @EnableFeignClients(clients = PersonService.class)
 public class PersonClientApplication {
     public static void main(String[] args) {

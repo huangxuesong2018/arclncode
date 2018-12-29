@@ -30,7 +30,7 @@ public class PersonClientController implements PersonService {
      */
     //@PostMapping(value = "/person/save") 这里会继承 来自${@link PersonService }
     @Override
-    public boolean save(Person person) {
+    public boolean save(@RequestBody Person person) {
         return personService.save(person);
     }
 

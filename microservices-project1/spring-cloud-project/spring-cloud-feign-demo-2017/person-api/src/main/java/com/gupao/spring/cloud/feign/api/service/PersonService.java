@@ -15,7 +15,7 @@ import java.util.Collection;
  * @copyright
  * @since 2018-12-29
  */
-@FeignClient(value = "person-server")  // 服务提供方应用的名称
+@FeignClient(value = "person-service")  // 服务提供方应用的名称
 public interface PersonService {
     @PostMapping(value = "/person/save")
     boolean save(Person person);
