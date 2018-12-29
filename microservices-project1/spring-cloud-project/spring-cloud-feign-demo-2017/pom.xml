@@ -6,11 +6,18 @@
         <artifactId>spring-cloud-project</artifactId>
         <groupId>com.gupao</groupId>
         <version>0.0.1-SNAPSHOT</version>
-    </parent>s
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gupao</groupId>
-    <artifactId>spring-cloud-eureka-server-demo-2017</artifactId>
+    <artifactId>spring-cloud-feign-demo-2017</artifactId>
+    <packaging>pom</packaging>
+    <description>spring-cloud-feign</description>
+    <modules>
+        <module>person-api</module>
+        <module>person-service-provider</module>
+        <module>person-client</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -18,18 +25,16 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
-
 </project>
