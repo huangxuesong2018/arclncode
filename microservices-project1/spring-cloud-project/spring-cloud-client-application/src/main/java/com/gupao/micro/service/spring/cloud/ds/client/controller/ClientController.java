@@ -2,6 +2,8 @@ package com.gupao.micro.service.spring.cloud.ds.client.controller;
 
 import com.gupao.micro.service.spring.cloud.ds.client.loadbalance.LoadBalanceRequestInterceptor;
 import com.gupao.micro.service.spring.cloud.ds.client.loadbalance.MyCustomizer;
+import com.gupao.micro.service.spring.cloud.ds.client.service.feign.client.SayingService;
+import com.gupao.micro.service.spring.cloud.ds.client.service.rest.client.SayingRestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -38,15 +40,49 @@ public class ClientController {
     @Value("${spring.application.name}")
     private String currentServiceName;
 
+    @Autowired//注入 feign方式实现的接口调用
+    private SayingService sayingService;
 
+    @Autowired//注入 feign方式实现的接口调用
+    private SayingRestService sayingRestService;
+
+    /**
+     * 服务调用  (RestTemplate+LoadBalanceRequestInterceptor )
+     * 得用  LoadBalanceRequestInterceptor 自定义拦截器实现 负载均衡
+     * @param serviceName
+     * @param message
+     * @return
+     */
     @GetMapping("/invoke/{serviceName}/say")
     public String invokeSay(@PathVariable String serviceName,@RequestParam String message){
         return restTemplate.getForObject("/"+serviceName+"/say?message="+message,String.class);
     }
 
+    /**
+     * 服务调用  (RestTemplate+@LoadBalanced )
+     * 得用  @LoadBalanced 做负载均衡
+     * @param serviceName
+     * @param message
+     * @return
+     */
     @GetMapping("/lb/invoke/{serviceName}/say")
     public String lbInvokeSay(@PathVariable String serviceName,@RequestParam String message){
         return lbRestTemplate.getForObject("http://"+serviceName+"/say?message="+message,String.class);
+    }
+
+    @GetMapping("/feign/say")
+    public String feignSay(@RequestParam String message){
+        return sayingService.say(message);
+    }
+
+    @GetMapping("/rest/say")
+    public String restSay(@RequestParam String message){
+        return sayingRestService.say(message);
+    }
+
+    @GetMapping("/rest/say2")
+    public String restSay2(@RequestParam String message){
+        return sayingRestService.say2(message,"ar");
     }
 /*
     //第一个版本

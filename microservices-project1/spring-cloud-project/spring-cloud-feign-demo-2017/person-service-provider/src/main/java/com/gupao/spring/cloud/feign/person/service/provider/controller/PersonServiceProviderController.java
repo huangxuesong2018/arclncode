@@ -31,6 +31,7 @@ public class PersonServiceProviderController{
 
     @GetMapping(value = "/person/find/all")
     Collection<Person> findAllPersons(){
+        System.out.println("---------findAllPersons");
         return persons.values();
     }
 }

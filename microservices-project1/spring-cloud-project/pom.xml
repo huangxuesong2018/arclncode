@@ -23,6 +23,8 @@
         <module>spring-cloud-client-application</module>
         <module>spring-cloud-service-application</module>
         <module>spring-cloud-feign-demo-2017</module>
+        <module>spring-cloud-servlet-gateway</module>
+        <module>spring-cloud-stream-kafka-demo-2017</module>
     </modules>
 
     <properties>

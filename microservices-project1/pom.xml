@@ -18,6 +18,7 @@
 	<name>microservices-project1</name>
 	<description>微服务总工程</description>
 
+	<!-- Spring Boot  -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
