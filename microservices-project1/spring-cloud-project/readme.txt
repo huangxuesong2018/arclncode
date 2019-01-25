@@ -14,6 +14,16 @@
       ->借助ImportBeanDefinitionRegistrar接口实现bean的动态注入,生成接口的代理对象
       在代理对象中 利用RestTemplate实现远程调用
 
+   7.加入 spring-cloud-stream-rabbiMQ  消息生产者
+    添加依赖
+     <dependency>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+     </dependency>
+     <dependency>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+     </dependency>
 
 二，spring-cloud-service-application
    1.服务端节点
@@ -23,10 +33,24 @@
    5.自定义服务容错实现
       ->利用Future 实现超时容错机制
       ->利用Semaphore 实现访问量容错机制
+   6.加入 spring-cloud-stream-rabbiMQ  消息消费者
 
  三,spring-cloud-servlet-gateway 网关
     spring-cloud-service-application(服务提供) ->注册到zookeeper
     spring-cloud-servlet-gateway  ->注册到zookeeper
     访问测试: http://127.0.0.1:20000/gateway/spring-cloud-server-application/say?message=arcln
 
- 四，spring-cloud-stream-kafka-demo-2017  kafka+stream
+ 四，spring-cloud-stream-kafka-demo-2017(2017-spring Stream(上1))  kafka+stream
+   1.kafka配置(../config/server.properties)
+     broker.id=0
+     zookeeper.connect=192.168.1.130:2181
+     listeners=PLAINTEXT://192.168.1.130:9092
+   2.启动 指定配置文件
+     需要先启动zookeeper
+     bin/kafka-server-start.sh config/server.properties &
+
+   3.Spring Boot Kafka
+      -> application.properties 加入kafka生产者和消费者的配置
+      -> KafkaTemplate  生产者发送消息 (Spring boot里面的)
+      -> @KafkaListener  监听消息（org.springframework.kafka.annotation里面的）
+

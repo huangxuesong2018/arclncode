@@ -3,8 +3,6 @@ package com.gupao.micro.service.spring.cloud.servlet.gateway.servlet;
 import com.gupao.micro.service.spring.cloud.servlet.gateway.loadbalancer.ZookeeperLoadBalancer;
 import com.netflix.loadbalancer.Server;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.RequestEntity;

@@ -4,11 +4,15 @@ import com.gupao.micro.service.spring.cloud.ds.client.stream.SimpleMessageServic
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.messaging.Source;
+import org.springframework.http.MediaType;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.GenericMessage;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -34,7 +38,11 @@ public class MessageController {
     @GetMapping("/stream/send")
     public String streamSend(@RequestParam String message){
         MessageChannel channel = simpleMessageService.gupao();
-        channel.send(new GenericMessage<>("Hello World,"+message));
+        Map<String,String> header = new HashMap<>();
+        header.put("charset","UTF-8");
+        header.put("content-type", MediaType.TEXT_MARKDOWN_VALUE);
+        GenericMessage message1 = new GenericMessage(message,header);
+        channel.send(message1);
         return "ok";
     }
 

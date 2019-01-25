@@ -42,7 +42,6 @@ public class GatewayServlet extends HttpServlet {
 
     @Autowired
     private DiscoveryClient discoveryClient;
-
     private ServiceInstance randomChoose(String serviceName) {
         // 获取服务实例列表（服务IP、端口、是否为HTTPS）
         List<ServiceInstance> serviceInstances = discoveryClient.getInstances(serviceName);
