@@ -3,7 +3,6 @@ package com.gupao.micro.service.spring.cloud.ds.client.controller;
 import com.gupao.micro.service.spring.cloud.ds.client.stream.SimpleMessageService;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.http.MediaType;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.GenericMessage;

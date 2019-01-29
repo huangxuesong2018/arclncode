@@ -25,6 +25,8 @@
          <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
      </dependency>
 
+     8.利用ApplicationEvent 实现调用消息发送
+
 二，spring-cloud-service-application
    1.服务端节点
    2.注册到 Zookeeper
@@ -34,6 +36,8 @@
       ->利用Future 实现超时容错机制
       ->利用Semaphore 实现访问量容错机制
    6.加入 spring-cloud-stream-rabbiMQ  消息消费者
+
+   7.利用ApplicationEvent 实现消息接收
 
  三,spring-cloud-servlet-gateway 网关
     spring-cloud-service-application(服务提供) ->注册到zookeeper

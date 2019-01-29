@@ -23,42 +23,22 @@ import java.util.Map;
 public class RemoteAppEvent extends ApplicationEvent {
 
     private String type;
-    private String sender;
-    private String appName;
-
     /**
-     * 应用实例
+     * 应用名称
      */
+    private final String appName;
+    /**
+     * 是否广播到集群
+     */
+    private final boolean isCluster;
 
-    private List<ServiceInstance> serviceInstances;
-    public RemoteAppEvent(Object source, String sender,String appName, List<ServiceInstance> serviceInstances) {
+    public RemoteAppEvent(Object source,String appName, boolean isCluster) {
         super(source);
-        this.sender = sender;
         this.appName = appName;
-        this.serviceInstances = serviceInstances;
+        this.isCluster = isCluster;
     }
-
     public String getAppName() {
         return appName;
     }
 
-    public void setAppName(String appName) {
-        this.appName = appName;
-    }
-
-    public List<ServiceInstance> getServiceInstances() {
-        return serviceInstances;
-    }
-
-    public void setServiceInstances(List<ServiceInstance> serviceInstances) {
-        this.serviceInstances = serviceInstances;
-    }
-
-    public String getSender() {
-        return sender;
-    }
-
-    public void setSender(String sender) {
-        this.sender = sender;
-    }
 }

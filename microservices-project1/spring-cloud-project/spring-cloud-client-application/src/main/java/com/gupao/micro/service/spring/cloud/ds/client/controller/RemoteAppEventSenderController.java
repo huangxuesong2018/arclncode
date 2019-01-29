@@ -1,27 +1,17 @@
 package com.gupao.micro.service.spring.cloud.ds.client.controller;
 
 import com.gupao.micro.service.spring.cloud.client.event.RemoteAppEvent;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.DefaultServiceInstance;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
-import org.springframework.context.PayloadApplicationEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
-import javax.websocket.server.PathParam;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+
 
 /**
  * 远程应用事件控制器
- * Spring Cloud Bus(事件总线)
- * @author HXS
+ * spring cloud bus(事件总线)
+ * @author hxs
  * @copyright
  * @since 2019-01-28
  */
@@ -31,9 +21,6 @@ public class RemoteAppEventSenderController implements ApplicationEventPublisher
 
     @Value("${spring.application.name}")
     private String currentAppName;
-    @Autowired
-    private DiscoveryClient discoveryClient;
-
     /**
      * http://localhost:8080/send/remote/event?message=555
      * @param message
@@ -53,11 +40,9 @@ public class RemoteAppEventSenderController implements ApplicationEventPublisher
      * @return
      */
     @PostMapping("/send/remote/event/{appName}")
-    public String sendAppCluster(@PathVariable String appName,@RequestBody Map data){
-        //发送到自已
-        List<ServiceInstance> serviceInstances =  discoveryClient.getInstances(appName);
+    public String sendAppCluster(@PathVariable String appName,@RequestBody Object data){
         //构建事件
-        RemoteAppEvent remoteAppEvent = new RemoteAppEvent(data,currentAppName,appName,serviceInstances);
+        RemoteAppEvent remoteAppEvent = new RemoteAppEvent(data,appName,true);
         //发送事件， 发给当前的上下文
         publisher.publishEvent(remoteAppEvent);
         return "ok";
@@ -74,9 +59,8 @@ public class RemoteAppEventSenderController implements ApplicationEventPublisher
                                  @PathVariable String ip,
                                  @PathVariable int port,
                                  @RequestBody Object data){
-        ServiceInstance serviceInstances = new DefaultServiceInstance(appName,ip,port,false);
         //构建事件
-        RemoteAppEvent remoteAppEvent = new RemoteAppEvent(data,currentAppName,appName, Arrays.asList(serviceInstances));
+        RemoteAppEvent remoteAppEvent = new RemoteAppEvent(data,currentAppName,false);
         //发送事件， 发给当前的上下文
         publisher.publishEvent(remoteAppEvent);
         return "ok";
