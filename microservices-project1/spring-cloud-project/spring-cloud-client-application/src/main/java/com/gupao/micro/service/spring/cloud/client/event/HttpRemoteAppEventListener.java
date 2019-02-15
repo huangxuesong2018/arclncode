@@ -1,11 +1,9 @@
 package com.gupao.micro.service.spring.cloud.client.event;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEvent;
-import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.SmartApplicationListener;
 import org.springframework.web.client.RestTemplate;
@@ -13,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
+
 
 /**
  * {@link RemoteAppEvent} 监听器，将事件数据发送HTTP请求到目标机器
@@ -35,6 +33,10 @@ public class HttpRemoteAppEventListener implements SmartApplicationListener {
     public void onApplicationEvent(RemoteAppEvent event) {
         Object source = event.getSource();
         String appName = event.getAppName();
+        /**
+         * 依赖于Zookeeper注册中心
+         * 从Zookeeper注册中心 发现服务列表
+         */
         List<ServiceInstance> serviceInstances = discoveryClient.getInstances(appName);
         for (ServiceInstance s:serviceInstances) {
             String rootUrl = s.isSecure() ?

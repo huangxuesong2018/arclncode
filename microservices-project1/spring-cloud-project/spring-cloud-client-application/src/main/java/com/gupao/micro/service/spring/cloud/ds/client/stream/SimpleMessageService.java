@@ -4,6 +4,7 @@ import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
 
 /**
+ *
  * 可以做为 Kafka 和 rabbitMQ
  * @author HXS
  * @copyright

@@ -1,11 +1,7 @@
 package com.gupao.micro.service.spring.cloud.client.event;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.context.ApplicationEvent;
 
-import java.util.List;
 import java.util.Map;
 
 /**

@@ -24,6 +24,9 @@ public class SpringCloudClientApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder(SpringCloudClientApplication.class)
                 .web(WebApplicationType.SERVLET)
+                /**
+                 *  @see com.gupao.micro.service.spring.cloud.ds.client.bean.ListenerConfig
+                 */
                // .listeners(new HttpRemoteAppEventListener())//也可以使用 ListenerConfig 类的方式
                 .run(args);
     }

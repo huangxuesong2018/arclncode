@@ -1,8 +1,6 @@
 package com.gupao.micro.service.spring.cloud.client.event;
 
-import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.event.ContextRefreshedEvent;
 
 /**
  * @author HXS

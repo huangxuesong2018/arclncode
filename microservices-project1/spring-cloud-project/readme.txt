@@ -27,6 +27,7 @@
 
      8.利用ApplicationEvent 实现调用消息发送
 
+
 二，spring-cloud-service-application
    1.服务端节点
    2.注册到 Zookeeper
