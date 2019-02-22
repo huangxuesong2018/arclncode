@@ -1,4 +1,4 @@
-package com.springinaction.chapter_01.knights;
+package com.springinaction.chapter_01.xmlMode.knights;
 
 import java.io.PrintStream;
 
@@ -22,5 +22,4 @@ public class Minstrel {
         stream.println("Tee hee hee, the brave knight " +
                 "did embark on a quest!");
     }
-
 }

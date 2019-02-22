@@ -1,4 +1,4 @@
-package com.springinaction.chapter_01.knights;
+package com.springinaction.chapter_01;
 
 public interface Knight {
     public void embarkOnQuest();
