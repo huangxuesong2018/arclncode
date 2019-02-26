@@ -25,6 +25,7 @@
         <module>spring-cloud-feign-demo-2017</module>
         <module>spring-cloud-servlet-gateway</module>
         <module>spring-cloud-stream-kafka-demo-2017</module>
+        <module>spring-cloud-stream-binder-rocketmq</module>
     </modules>
 
     <properties>

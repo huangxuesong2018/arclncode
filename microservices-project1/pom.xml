@@ -12,6 +12,7 @@
         <module>spring-mvc-rest</module>
         <module>spring-web-flux</module>
 		<module>spring-cloud-project</module>
+		<module>spring-demo-test</module>
 	</modules>
 	<packaging>pom</packaging>
 

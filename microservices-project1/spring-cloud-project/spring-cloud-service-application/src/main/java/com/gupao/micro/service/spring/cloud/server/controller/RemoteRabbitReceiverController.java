@@ -57,4 +57,11 @@ public class RemoteRabbitReceiverController {
     public void onServiceActivator(String data){
         System.out.println("id=1003,Spring Integration 注解驱动:接收到消息:"+data);
     }
+
+    @StreamListener("test007") //Spring Cloud Stream 注解驱动
+    public void onMessageFromRockMQ(byte[] data){
+        System.out.println("id=1002,注解驱动:接收到消息:"+new String(data));
+    }
+
+
 }

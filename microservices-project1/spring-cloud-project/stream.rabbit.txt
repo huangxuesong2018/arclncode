@@ -24,4 +24,9 @@ demo访问:http://localhost:8080/stream/send?message=33
  <!-- rabbit MQ-->
 
 
+4. com.gupao.micro.service.spring.cloud.ds.client.stream.SimpleMessageService
+
+5. @EnableBinding(SimpleMessageService.class)//激活bind模式
+
+
 

@@ -57,5 +57,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
         </dependency>
+
+        <!-- rocket MQ -->
+        <dependency>
+            <groupId>com.gupao</groupId>
+            <artifactId>spring-cloud-stream-binder-rocketmq</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- rocket MQ -->
     </dependencies>
 </project>

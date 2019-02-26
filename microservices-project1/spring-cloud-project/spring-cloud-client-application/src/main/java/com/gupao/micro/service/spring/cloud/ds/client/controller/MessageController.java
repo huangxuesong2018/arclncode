@@ -45,4 +45,11 @@ public class MessageController {
         return "ok";
     }
 
+    @GetMapping("/stream/send/rocketmq")
+    public String streamSendToRocketMQ(@RequestParam String message){
+        MessageChannel channel = simpleMessageService.testChanel();
+        GenericMessage message1 = new GenericMessage(message);
+        channel.send(message1);
+        return "ok";
+    }
 }

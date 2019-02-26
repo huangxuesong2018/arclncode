@@ -60,5 +60,14 @@
         </dependency>
         <!-- rabbit MQ-->
 
+        <!-- rocket MQ -->
+        <dependency>
+            <groupId>com.gupao</groupId>
+            <artifactId>spring-cloud-stream-binder-rocketmq</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- rocket MQ -->
+
+
     </dependencies>
 </project>
