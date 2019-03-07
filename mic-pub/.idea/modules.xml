@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mic-pub.iml" filepath="$PROJECT_DIR$/mic-pub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/mongo-demo/mongo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongo-explorer/mongo-explorer.iml" filepath="$PROJECT_DIR$/mongo-explorer/mongo-explorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongo-orm/mongo-orm.iml" filepath="$PROJECT_DIR$/mongo-orm/mongo-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread-demo/thread-demo.iml" filepath="$PROJECT_DIR$/thread-demo/thread-demo.iml" />
+    </modules>
+  </component>
+</project>
