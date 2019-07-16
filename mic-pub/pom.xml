@@ -12,6 +12,10 @@
         <module>mongo-demo</module>
         <module>mongo-orm</module>
         <module>mongo-explorer</module>
+        <module>redis-demo</module>
+        <module>rabbit-mq</module>
+        <module>netty-demo</module>
+        <module>pattern-demo</module>
     </modules>
     <packaging>pom</packaging>
     <parent>

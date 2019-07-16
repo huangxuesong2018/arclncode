@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.gupaoedu.vip.mongo.explorer.common.config.DepotMongoConfig",
+      "name": "spring.data.mongodb.explorer",
+      "type": "com.gupaoedu.vip.mongo.explorer.common.config.DepotMongoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.gupaoedu.vip.mongo.explorer.common.config.DepotMongoConfig",
+      "name": "spring.data.mongodb.explorer.uri",
+      "type": "java.lang.String"
+    }
+  ]
+}
