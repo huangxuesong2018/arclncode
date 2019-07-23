@@ -1,5 +1,8 @@
 package com.arcln.pattern.strategic;
 
+import com.arcln.pattern.strategic.context.DuckContext;
+import com.arcln.pattern.strategic.context.concreteContext.DecoyDuck;
+
 /**
  * 策略模式
  * @author HXS
@@ -8,7 +11,7 @@ package com.arcln.pattern.strategic;
  */
 public class Test {
     public static void main(String[] args) {
-        Duck duck = new DecoyDuck();
+        DuckContext duck = new DecoyDuck();
         duck.display();
         duck.swim();
         duck.performFly();

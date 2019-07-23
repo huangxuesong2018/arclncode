@@ -5,6 +5,7 @@ import com.arcln.pattern.iterator.aggregate.Menu;
 import com.arcln.pattern.iterator.iterators.MyIterator;
 import com.arcln.pattern.iterator.iterators.impl.CoffeeMenuIterator;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import java.util.List;
@@ -17,8 +18,9 @@ import java.util.Map;
  */
 public class CoffeeMenu implements Menu{
     Map<String,MenuItem> map = new HashMap<>();
-
+    List<CoffeeMenu> subList;
     public CoffeeMenu() {
+        this.subList = subList;
         addItem("aa11",
                 "Pancakes with scrambled eggs",
                 true,2.99);
@@ -31,6 +33,7 @@ public class CoffeeMenu implements Menu{
                 "Waffles",
                 true,3.59);
     }
+
 
     private void addItem(String name, String description, boolean vegetarian, double price) {
         MenuItem menuItem = new MenuItem(name,description,vegetarian,price);
