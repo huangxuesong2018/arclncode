@@ -14,11 +14,13 @@ import java.util.Arrays;
 public class BufferDemo {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
+       // ByteBuffer.allocateDirect(20);
         String d = encode("中国人");
         System.out.println(d);
         //解码
         decode(d);
     }
+
 
     public static  void decode(String str) throws UnsupportedEncodingException {
         ByteBuffer byteBuffer = ByteBuffer.allocate(128);

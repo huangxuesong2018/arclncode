@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/mongo-demo/mongo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo-explorer/mongo-explorer.iml" filepath="$PROJECT_DIR$/mongo-explorer/mongo-explorer.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo-orm/mongo-orm.iml" filepath="$PROJECT_DIR$/mongo-orm/mongo-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-demo/pattern-demo.iml" filepath="$PROJECT_DIR$/pattern-demo/pattern-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq.iml" />

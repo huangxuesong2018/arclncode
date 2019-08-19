@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lico.iml" filepath="$PROJECT_DIR$/lico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-api/lion-api.iml" filepath="$PROJECT_DIR$/lion-api/lion-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-boot/lion-boot.iml" filepath="$PROJECT_DIR$/lion-boot/lion-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-common/lion-common.iml" filepath="$PROJECT_DIR$/lion-common/lion-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-core/lion-core.iml" filepath="$PROJECT_DIR$/lion-core/lion-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-monitor/lion-monitor.iml" filepath="$PROJECT_DIR$/lion-monitor/lion-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-network/lion-network.iml" filepath="$PROJECT_DIR$/lion-network/lion-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-tools/lion-tools.iml" filepath="$PROJECT_DIR$/lion-tools/lion-tools.iml" />
     </modules>
   </component>
 </project>

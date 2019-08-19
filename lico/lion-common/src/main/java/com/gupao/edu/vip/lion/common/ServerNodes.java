@@ -1,6 +1,7 @@
 package com.gupao.edu.vip.lion.common;
 
 import com.gupao.edu.vip.lion.api.srd.CommonServiceNode;
+import com.gupao.edu.vip.lion.api.srd.ServiceNames;
 import com.gupao.edu.vip.lion.api.srd.ServiceNode;
 import com.gupao.edu.vip.lion.tools.config.CC;
 import com.gupao.edu.vip.lion.tools.config.ConfigTools;

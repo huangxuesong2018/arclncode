@@ -5,12 +5,25 @@
     <parent>
         <artifactId>lion</artifactId>
         <groupId>com.gupao.edu.vip</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.gupao.edu.vip</groupId>
+    <packaging>jar</packaging>
     <artifactId>lion-core</artifactId>
+    <description>lion消息推送系统核心模块</description>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>lion-network</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>lion-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>lion-monitor</artifactId>
+        </dependency>
+    </dependencies>
 </project>

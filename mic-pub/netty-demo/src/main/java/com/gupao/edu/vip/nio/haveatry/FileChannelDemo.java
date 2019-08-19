@@ -15,18 +15,18 @@ public class FileChannelDemo {
 
         RandomAccessFile aFile = new RandomAccessFile("E:\\test.txt","rw");
 
+        //通道
         FileChannel inChannel = aFile.getChannel();
         ByteBuffer buf = ByteBuffer.allocate(48);
         int bytesRead = inChannel.read(buf);
 
-        while (bytesRead != -1) {
+        while (inChannel.read(buf) != -1) {
             System.out.println("Read " + bytesRead);
             buf.flip();
             while(buf.hasRemaining()){
                 System.out.print((char) buf.get());
             }
             buf.clear();
-            bytesRead = inChannel.read(buf);
         }
         aFile.close();
 

@@ -16,6 +16,7 @@
         <module>rabbit-mq</module>
         <module>netty-demo</module>
         <module>pattern-demo</module>
+        <module>mybatis-demo</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -27,7 +28,7 @@
 
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourroceEncoding>UTF-8</pject.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
