@@ -97,7 +97,7 @@ public class ClientSocketChannelDemo {
                         /*通过SelectionKey获取对应的通道*/
                         Buffers buffers = (Buffers)key.attachment();
                         ByteBuffer readBuffer = buffers.getReadBuffer();
-                        ByteBuffer writeBuffer = buffers.gerWriteBuffer();
+                        ByteBuffer writeBuffer = buffers.getWriteBuffer();
 
                         /*通过SelectionKey获取通道对应的缓冲区*/
                         SocketChannel sc = (SocketChannel) key.channel();

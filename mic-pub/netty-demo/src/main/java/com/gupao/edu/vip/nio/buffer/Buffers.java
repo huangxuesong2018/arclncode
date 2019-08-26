@@ -20,8 +20,7 @@ public class Buffers {
         return readBuffer;
     }
 
-    public ByteBuffer gerWriteBuffer(){
+    public ByteBuffer getWriteBuffer() {
         return writeBuffer;
     }
-
 }

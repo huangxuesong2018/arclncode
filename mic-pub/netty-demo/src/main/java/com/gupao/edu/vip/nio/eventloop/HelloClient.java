@@ -1,10 +1,8 @@
 package com.gupao.edu.vip.nio.eventloop;
 
+import com.gupao.edu.vip.nio.buffer.Buffers;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelPipeline;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LengthFieldPrepender;
@@ -27,13 +25,12 @@ public class HelloClient {
     public static void main(String[] args) {
         EventLoopGroup group = new NioEventLoopGroup();
         Bootstrap bootstrap = new Bootstrap();
-        System.out.println(1);
         bootstrap.group(group)
                 .channel(NioSocketChannel.class)
                 .handler(new ChannelInitializer<Channel>() {
                     @Override
                     protected void initChannel(Channel channel) throws Exception {
-                        System.out.println(2);
+                        System.out.println("这里是什么时候调用 的");
                         ChannelPipeline pipeline = channel.pipeline();
                         pipeline.addLast("frameEncoder", new LengthFieldPrepender(4));
                         pipeline.addLast("decoder", new StringDecoder(CharsetUtil.UTF_8));
@@ -42,16 +39,15 @@ public class HelloClient {
                     }
                 });
 
-
         try {
-            System.out.println(3);
-            // 连接服务端
+            /**
+             * 向选择器注册通道
+             *   sc.register(selector, interestSet, new Buffers(256, 256));
+             */
             Channel ch = bootstrap.connect(host, port).sync().channel();
-            System.out.println(4);
             String msg;
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             while ((msg = reader.readLine()) != null ){
-                System.out.println("333333");
                 ch.writeAndFlush(msg);
             }
         } catch (InterruptedException e) {
@@ -60,6 +56,13 @@ public class HelloClient {
             e.printStackTrace();
         } finally {
             group.shutdownGracefully();
+        }
+    }
+
+    static class HelloClientHandler extends ChannelInboundHandlerAdapter {
+        @Override
+        public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+            System.out.println("client receive message: "+msg);
         }
     }
 }

@@ -17,15 +17,15 @@ public class FileChannelDemo {
 
         //通道
         FileChannel inChannel = aFile.getChannel();
-        ByteBuffer buf = ByteBuffer.allocate(48);
+        ByteBuffer buf = ByteBuffer.allocate(20);
         int bytesRead = inChannel.read(buf);
 
         while (inChannel.read(buf) != -1) {
-            System.out.println("Read " + bytesRead);
             buf.flip();
-            while(buf.hasRemaining()){
+            while(buf.hasRemaining()){//一个字节一个字节读取
                 System.out.print((char) buf.get());
             }
+            System.out.println();
             buf.clear();
         }
         aFile.close();

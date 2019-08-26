@@ -22,7 +22,6 @@ import java.util.Set;
  * @copyright
  * @since 2019-04-18
  */
-@Slf4j
 public class ServiceSocketChannelDemo {
 
     public static class TCPEchoServer implements Runnable{
@@ -111,7 +110,7 @@ public class ServiceSocketChannelDemo {
                                 /*通过SelectionKey获取通道对应的缓冲区*/
                                 Buffers  buffers = (Buffers)key.attachment();
                                 ByteBuffer readBuffer = buffers.getReadBuffer();
-                                ByteBuffer writeBuffer = buffers.gerWriteBuffer();
+                                ByteBuffer writeBuffer = buffers.getWriteBuffer();
 
                                 /*通过SelectionKey获取对应的通道*/
                                 SocketChannel sc = (SocketChannel) key.channel();
@@ -144,7 +143,7 @@ public class ServiceSocketChannelDemo {
                                 System.out.println("服务端:写");
                                 Buffers  buffers = (Buffers)key.attachment();
 
-                                ByteBuffer writeBuffer = buffers.gerWriteBuffer();
+                                ByteBuffer writeBuffer = buffers.getWriteBuffer();
                                 writeBuffer.flip();
 
                                 SocketChannel sc = (SocketChannel) key.channel();

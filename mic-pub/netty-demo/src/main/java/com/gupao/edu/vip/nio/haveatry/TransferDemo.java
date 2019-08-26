@@ -5,6 +5,7 @@ import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 
 /**
+ *  拷备
  * @author HXS
  * @copyright
  * @since 2019-04-17
